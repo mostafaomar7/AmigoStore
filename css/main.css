@@ -563,3 +563,117 @@ i{
     background-color: #010103;
     color: #fff;
 }
+/* wide.html */
+.clothes{
+    margin-top: 200px;
+}
+.clothes h4,h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.clothes h1{
+    margin-bottom: 40px;
+    font-size: 3rem;
+}
+.clothes .new{
+    background-color: black;
+    border-radius: 15px;
+    height: 20px;
+    width: 50px;
+    text-align: center;
+    padding: 0px;
+    color: white;
+    float: left;
+    font-size: 13px;
+}
+.clothes .card{
+    background-image: url(../img/wide\ leg.jpg);
+    background-position: 100% 100%;
+    background-size: cover;
+    padding: 5px;
+}
+.clothes .card-sweat{
+    background-image: url(../img/sweat.webp);
+    background-position: 100% 100%;
+    background-size: cover;
+    padding: 5px;
+}
+.clothes .card-slim{
+    background-image: url(../img/slim.jpg);
+    background-position: 100% 100%;
+    background-size: cover;
+    padding: 5px;
+}
+.clothes .card-boy{
+    background-image: url(../img/BOYFRIEND.webp);
+    background-position: 100% 100%;
+    background-size: cover;
+    padding: 5px;
+}
+.clothes .card-cargo{
+    background-image: url(../img/cargo.webp);
+    background-position: 100% 100%;
+    background-size: cover;
+    padding: 5px;
+}
+.clothes .card-best{
+    background-image: url(../img/best\ \(2\).jpg);
+    background-position: 100% 100%;
+    background-size: cover;
+    padding: 5px;
+}
+.clothes .card-shirt{
+    background-image: url(../img/t-shirt.jpg);
+    background-position: 100% 100%;
+    background-size: cover;
+    padding: 5px;
+}
+.clothes .sizes{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.clothes .sizes a{
+    margin-right: 3px;
+    border: 1px solid black;
+    padding: 3px;
+    color: black;
+}
+.clothes .icon{
+    height: 300px;
+}
+.clothes .icon i{
+    font-size: 20px;
+    color: #fff;
+    background-color: #555;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 5px;
+    opacity: 0;
+    transition: .5s;
+}
+.clothes .icon i:hover{
+    background-color: #666;
+    filter: brightness(10);
+    color: #c20d0d;
+}
+.clothes .card:hover i{
+    opacity: 1;
+}
+.clothes .card-slim:hover i{
+    opacity: 1;
+}
+.clothes .card-sweat:hover i{
+    opacity: 1;
+}
+.clothes .card-boy:hover i{
+    opacity: 1;
+}
+.clothes .card-cargo:hover i{
+    opacity: 1;
+}
+.clothes .card-best:hover i{
+    opacity: 1;
+}
+.clothes .card-shirt:hover i{
+    opacity: 1;
+}
